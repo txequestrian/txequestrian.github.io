@@ -12,8 +12,14 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
+    <!-- Custom CSS -->
     <link href="css/utequestrian.css" rel="stylesheet">
+	
+	<!-- Bootstrap fonts -->
+	<link rel="stylesheet" type="text/css" media="all" href="./css/font-awesome.min.css" />
+	
+	<!-- Photo gallery -->
+	<link rel="stylesheet" type="text/css" media="all" href="./css/jgallery.css" />
 	
 	<!-- favicon -->
 	<link rel="shortcut icon" href="img/teamlogosmall.png">
@@ -63,60 +69,44 @@
 </nav>
 
 <div class="container">
-<div class="box photos">
+<div class="box classes-last">
 <div class="col-lg-12 text-center">
 	<hr>
 	<h3>
         <span class="brand-name">Photo Gallery</span>
     </h3>
 	<hr>
-    <div id="carousel-example-generic" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators hidden-xs">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="6"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img class="img-responsive img-full" src="img/anndeefirstplacelsu.jpg" alt="">
+    
+	<div style="padding: 40px 0; width: 100%; margin: 0 auto; height: auto;">
+        <div id="gallery">
+            <div class="album" data-jgallery-album-title="2013-2014 Season">
+                   <h1>2013-2014 Season</h1>
+				   <!-- Main image link first, then thumbnail image link in img tag -->
+                   <a href="http://i.imgur.com/x60FYhZ.jpg"><img src="http://i.imgur.com/yNBqZfQ.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/YNnH4C4.jpg"><img src="http://i.imgur.com/sjdKIgn.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/t3YLxkg.jpg"><img src="http://i.imgur.com/Qw62Ba7.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/J7vMXBw.jpg"><img src="http://i.imgur.com/F68yNgh.jpg" alt="" /></a>
+				   <a href="http://i.imgur.com/fPdtDHP.jpg"><img src="http://i.imgur.com/B7fSMQ6.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/LucOTsn.jpg"><img src="http://i.imgur.com/S05Lz0b.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/rvHpNcg.jpg"><img src="http://i.imgur.com/J2mKEx8.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/3c41B47.jpg"><img src="http://i.imgur.com/1ZyJ8Yf.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/IdmVn7A.jpg"><img src="http://i.imgur.com/URNbw5Y.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/rBED8N8.jpg"><img src="http://i.imgur.com/w6KQTCr.jpg" alt="" /></a>
+                   <a href="http://i.imgur.com/7wNlxGr.jpg"><img src="http://i.imgur.com/4MatEd4.jpg" alt="" /></a>
+				   <!-- example link from jquery photo gallery source code
+                   <a href="http://jgallery.jakubkowalczyk.pl/images/large/4.jpg"><img src="http://jgallery.jakubkowalczyk.pl/images/thumbs/4.jpg" alt="Source: Pixabay.com"  data-jgallery-bg-color="#F0EDD1" data-jgallery-text-color="#240B05" /></a>-->
             </div>
-            <div class="item">
-                <img class="img-responsive img-full" src="img/carlatulane.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="img-responsive img-full" src="img/natalierice.jpg" alt="">
-            </div>
-            <div class="item">
-                <img class="img-responsive img-full" src="img/sissirice.jpg" alt="">
-            </div>
-			<div class="item">
-                <img class="img-responsive img-full" src="img/anndeerice.jpg" alt="">
-            </div>
-			<div class="item">
-                <img class="img-responsive img-full" src="img/meagantulane.jpg" alt="">
-            </div>
-			<div class="item">
-                <img class="img-responsive img-full" src="img/dianarice2.jpg" alt="">
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </div>
+			<div class="album" data-jgallery-album-title="Miscellaneous"
+					<h1>Miscellaneous</h1>
+					<a href="http://i.imgur.com/3qxH1Oe.jpg"><img src="http://i.imgur.com/1ZzOaLF.jpg" alt="" /></a>
+					<a href="http://i.imgur.com/MYMjQAU.jpg"><img src="http://i.imgur.com/HIVk8JR.jpg" alt="" /></a>
+					<a href="http://i.imgur.com/2yOargB.jpg"><img src="http://i.imgur.com/Ki5Mzb3.jpg" alt="" /></a>
+					<a href="http://i.imgur.com/HTRK0m7.jpg"><img src="http://i.imgur.com/XCxdzfC.jpg" alt="" /></a>
+			</div>
+		</div>
+	</div>
 </div>
-
+</div>
 </div>
 
 <div class="row">
@@ -145,12 +135,19 @@
 
 <!-- JavaScript -->
 <script src="js/jquery-1.10.2.js"></script>
+
 <script src="js/bootstrap.js"></script>
-<script>
-    // Activates the Carousel
-    $('.carousel').carousel({
-        interval: 5000
-    })
+
+<script type="text/javascript" src="./js/tinycolor-0.9.16.min.js"></script>
+
+<script type="text/javascript" src="./js/jgallery.js"></script>
+
+<script type="text/javascript">
+    $( function() {
+        $( '#gallery' ).jGallery( {
+            'mode': 'standard'
+        } );
+    } );
 </script>
 
 </body>
