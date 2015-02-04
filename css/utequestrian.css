@@ -326,3 +326,8 @@ ul li a {
 .center {
 	text-align: center;
 }
+.personal-description li {
+  font-size: 1.00em;
+  line-height: 2.0;
+  list-style-type: none;
+}
