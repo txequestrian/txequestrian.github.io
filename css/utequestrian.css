@@ -73,13 +73,13 @@ hr {
 #poloshirts {
   width: 100%;
 }
-#logo {
-  height: 100%;
-  margin-left: -6px;
-}
 #banner {
   width: 100%;
   margin-top: -44px;
+}
+#logo {
+  width: 320px;
+  margin-left: -2px;
 }
   
 .box {
