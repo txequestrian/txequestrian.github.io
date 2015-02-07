@@ -331,3 +331,7 @@ ul li a {
   line-height: 2.0;
   list-style-type: none;
 }
+#ihsajump {
+  width: 340px;
+  margin-top: -10px;
+}
