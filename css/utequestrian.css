@@ -346,3 +346,6 @@ ul li a {
   width: 340px;
   margin-top: -10px;
 }
+.personal-description {
+  padding-left: 0;
+}
