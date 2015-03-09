@@ -14,7 +14,13 @@
 
     <!-- custom CSS -->
     <link href="css/utequestrian.css" rel="stylesheet">
-    
+
+    <!-- Bootstrap fonts -->
+    <link rel="stylesheet" type="text/css" media="all" href="./css/font-awesome.min.css" />
+
+    <!-- Photo gallery -->
+    <link rel="stylesheet" type="text/css" media="all" href="./css/jgallery.css" />
+
     <!-- favicon -->
     <link rel="shortcut icon" href="img/teamlogosmall.png">
 
@@ -67,7 +73,7 @@
         </div>
       </div>
     </div>
-    
+
     <footer>
     <div class="container">
       <div class="row">
@@ -81,5 +87,16 @@
     <!-- JavaScript -->
     <script src="/js/jquery-1.10.2.js"></script>
     <script src="/js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="/js/tinycolor-0.9.16.min.js"></script>
+    <script type="text/javascript" src="/js/jgallery.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $( '#gallery' ).jGallery( {
+          'mode': 'standard'
+        });
+      });
+    </script>
   </body>
 </html>
