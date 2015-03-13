@@ -348,3 +348,6 @@ ul li a {
 .personal-description {
   padding-left: 0;
 }
+.dropdown-menu li {
+  font-size: 1.6em;
+}
