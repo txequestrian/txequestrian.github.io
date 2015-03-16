@@ -178,6 +178,9 @@ footer p {
 	h3 {
 		font-size: 1.3em;
 	}
+  .dropdown-item {
+    font-size: .5em;
+  }
 }
 
 @media screen and (min-width: 768px) {
