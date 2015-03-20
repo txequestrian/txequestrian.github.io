@@ -10,26 +10,34 @@ title: Texas Equestrian - Contact
       <hr><h2 class="intro-text text-center">Contact <strong>Texas Equestrian Team</strong></h2><hr>
       <p>To contact the Texas Equestrian or to donate, please email <a href="mailto:info@txequestrian.com">info@txequestrian.com</a> or call (203)739-5031. </p>
       <p class="nomobile">You can also contact us by filling out the form below.</p>
+      <br>
 
-      <form action="//formspree.io/outreach@txequestrian.com">
+      <form class="form-horizontal" method="post" action="//formspree.io/haley.owen21@gmail.com">
         <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" class="form-control" name="name"  id="name">
+          <label for="name" class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-7">
+            <input type="text" class="form-control" name="_subject" id="name">
+          </div>
         </div>
         <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" class="form-control" name="_replyto" id="email">
+          <label for="email" class="col-sm-2 control-label">Your Email</label>
+          <div class="col-sm-7">
+            <input type="email" class="form-control" name="_replyto" id="email">
+          </div>
         </div>
         <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" class="form-control" name="_subject" id="subject">
+          <label for="message" class="col-sm-2 control-label">Message</label>
+          <div class="col-sm-7">
+            <textarea class="form-control" rows="4" name="body"></textarea>
+          </div>
         </div>
         <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" name="body"></textarea>
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default btn-lg">Send</button>
+          </div>
         </div>
-        <button type="submit" class="btn btn-default">Send</button>
       </form>
+
     </div>
   </div>
 </div>
